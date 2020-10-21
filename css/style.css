@@ -1,0 +1,63 @@
+html{
+    background-color: black; 
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Krona One', sans-serif;
+    /*background-image: url(../img/bkg.jpg);
+    Background-repeat: repeat;*/
+}
+
+section{
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1{
+    background-color: rgb(255, 255, 255);
+    color: rgb(86, 202, 223);
+    padding: 1vw; /*base sur la largeur de l'ecran*/
+    
+}
+
+nav{
+    right: 40%;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+     background: rgb(255,255,255);
+    background: linear-gradient(171deg, rgba(255,255,255,1) 5%, rgba(255,255,255,1) 10%, rgba(0,0,0,1) 21%, rgba(255,255,255,1) 27%, rgba(0,0,0,1) 36%, rgba(255,255,255,1) 42%, rgba(0,0,0,1) 51%, rgba(255,255,255,1) 61%, rgba(0,0,0,1) 76%, rgba(255,255,255,1) 79%, rgba(0,0,0,1) 84%, rgba(255,255,255,1) 89%, rgba(0,0,0,1) 94%); 
+}
+
+nav a{
+    font-size: 1.3em;
+    font-weight: 700;
+    padding: 1em 2em;
+    color: rgb(255, 255, 255);
+    animation-timing-function: 2s;
+}
+
+h2{
+    font-size: 1.5em;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 1vw;
+}
+
+code{
+    font-size: 1.5vw;
+    font-style: italic;
+    background-color: rgb(0, 0, 0);
+}
+
+div{
+    text-align: center;
+    background: rgb(0, 0, 0);  
+    color: red; 
+    padding: 1vw;
+}
+
+img{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
